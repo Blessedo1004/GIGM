@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta \ http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GOD IS GOOD MOTORS</title>
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css" />
+    <link rel="stylesheet" href="main.css" />
+    <script src="bootstrap/js/jquery.min.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <!-- MAIN CF -->
+    <div class="container-fluid" id="main-cf">
+      <!-- SUB CF ONE -->
+      <nav
+        class="
+          container-fluid
+          navbar navbar-expand-lg navbar-light
+          fixed-top
+          bg-light
+        "
+        id="cf-one"
+      >
+        <div class="col-12 col-md-1"></div>
+        <div>
+          <img src="img/logo.png" class="navbar-brand" />
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link" id="nav-links">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                href="index.html"
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                id="nav-links"
+                >Services</a
+              >
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item" id="dropdown-items"
+                  >Public Transportation</a
+                >
+                <a href="#" class="dropdown-item" id="dropdown-items"
+                  >Private Transportation</a
+                >
+                <a href="#" class="dropdown-item" id="dropdown-items"
+                  >Events Transportation</a
+                >
+              </div>
+            </li>
+            <li class="nav-item">
+              <a
+                href="index.html"
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                id="nav-links"
+                >GIGM Experience</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="index.html"
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                id="nav-links"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link" id="nav-links"
+                >Our Schedule</a
+              >
+            </li>
+          </ul>
+          <div class="col-12 col-md-1"></div>
+          <div class="row mb-3">
+            <div class="col-1"><img src="img/phone.png" /></div>
+            <div class="col-8">Call Us Now</div>
+            <div class="col-6 ml-4">+234 9087821924</div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- SUB CF TWO -->
+      <div class="container-fluid" id="cf-two">
+        <div class="container">
+          <!-- MAIN ROW TWO -->
+          <div class="row">
+            <div class="col-12 col-md-1"></div>
+            <div class="mr-2 mt-4 mb-4">
+              <ul class="nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-light bg-danger"
+                    id="link1"
+                    data-toggle="tab"
+                    href="#bookAbus"
+                  >
+                    <i class="fas fa-bus fa-lg text-light"></i>&nbsp;&nbsp;Book
+                    a Bus</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-dark bg-light"
+                    id="link2"
+                    data-toggle="tab"
+                    href="#bookingStatus"
+                    ><i class="fas fa-star fa-lg"></i>&nbsp;&nbsp;Booking
+                    Status</a
+                  >
+                </li>
+              </ul>
+              <div class="tab-content text-light" id="bg-div">
+                <div id="bookAbus" class="container tab-pane active mt-2 mb-2">
+                  <div class="row mr-6">
+                    <div class="col-12 col-md-6">
+                      <div class="row">
+                        <div class="col-6">Travelling from</div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-12 col-md-6">
+                          <select name="travelling-from" id="form-1">
+                            <option>ABIA-Umuahia</option>
+                            <option>IMO-Owerri</option>
+                            <option>LAGOS-Ikeja</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                      <div class="row">
+                        <div class="col-12 col-md-6">Travelling To</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-12 col-md-6">
+                          <select name="travelling-to" id="form-2">
+                            <option>Select Destination</option>
+                            <option>Abuja</option>
+                            <option>Rivers</option>
+                            <option>Enugu</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mr-6 mt-2">
+                    <div class="col-12 col-md-6">
+                      <div class="row">
+                        <div class="col-6">Departing on</div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-12 col-md-6">
+                          <input type="date" id="form-3" />
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                      <div class="row">
+                        <div class="col-12 col-md-6">Adults</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-12 col-md-6">
+                          <select name="Adults" id="form-4">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mr-6 mt-2">
+                    <div class="col-12 col-md-6">
+                      <div class="row">
+                        <div class="col-6">Children (2-10)</div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-12 col-md-6">
+                          <select name="travelling-from" id="form-5">
+                            <option>0</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                      <div class="row">
+                        <div class="col-12 col-md-6"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-12 col-md-6"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-6">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-danger mt-2 mb-2"
+                        id="btn"
+                      >
+                        Book Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div id="bookingStatus" class="container tab-pane fade">
+                  Your Booking Status
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4 ml-md-5 mt-4 mb-4">
+              <img src="img/kaduna.jpg" id="img-1" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-4">
+        <div class="row">
+          <div class="col-1"></div>
+          <div
+            class="col-6 col-md-3 table-responsive mt-2 ml-5"
+            id="table-data"
+          >
+            <h4 class="text-4">Trending Routes</h4>
+            <table class="table" id="table-info">
+              <thead>
+                <tr>
+                  <th class="bg-light">Departure</th>
+                  <th class="bg-light">Arrival</th>
+                  <th class="bg-light">Time</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="bg-light">Lagos</td>
+                  <td class="bg-light">Benin</td>
+                  <td class="bg-light">6:00 AM</td>
+                </tr>
+                <tr>
+                  <td class="bg-light">Abia</td>
+                  <td class="bg-light">Abuja</td>
+                  <td class="bg-light">7:30 AM</td>
+                </tr>
+                <tr>
+                  <td class="bg-light">Abuja</td>
+                  <td class="bg-light">Asaba</td>
+                  <td class="bg-light">9:00 AM</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td id="text-5">View Schedule</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+          <div class="col-12 col-md-3 mt-2">
+            <div class="row">
+              <div class="col-12">
+                <img src="img/first.png" class="mx-auto d-block" />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-12">
+                <h4 class="text-dark text-center">First Class Service</h4>
+                <p class="text-center" id="text-2">
+                  Experience amazing road trip when you travel with us. Our
+                  services are created to give maximum satisfaction end to end.
+                  With our smart terminals, staff who are all about great
+                  service and good standard vehicles, our promise of first class
+                  transportation is guaranteed everyday.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3">
+            <div class="row mt-2">
+              <div class="col-12">
+                <img src="img/trust.png" class="mx-auto d-block" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <h4 class="text-dark mb-2 text-center">Safety</h4>
+                <div class="text-dark text-center" id="text-6">
+                  A little more care makes accidents rare. Safety is not just a
+                  word at GIGM.com, It is a committment. Engrained in our
+                  operational processes are global safety best practice. Buckle
+                  up in our very comfortable fleet, as we commute you from one
+                  destination to another safely.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-4" id="carousel-slide">
+        <div class="row">
+          <div class="col-12">
+            <h4 class="text-center">Top Destinations</h4>
+          </div>
+        </div>
+        <div id="demo" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ul class="carousel-indicators">
+            <li
+              data-target="#demo"
+              data-slide-to="0"
+              class="active bg-dark"
+              id="indicators"
+            ></li>
+            <li
+              data-target="#demo"
+              data-slide-to="1"
+              id="indicators"
+              class="bg-dark"
+            ></li>
+          </ul>
+          <!-- The slideshow -->
+          <div class="carousel-inner" id="inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-12 col-md-3">
+                  <div class="row">
+                    <div class="col-12 col-md-3 text-center">
+                      <h5>Lagos</h5>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 col-md-3">
+                      <img
+                        src="img/lagos.jpg"
+                        class="mx-auto d-block"
+                        alt="Lagos"
+                        id="carousel"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-3">
+                  <div class="row">
+                    <div class="col-12 col-md-3 text-center">
+                      <h5>Benin</h5>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 col-md-3">
+                      <img
+                        src="img/benin.jpg"
+                        class="mx-auto d-block"
+                        alt="Benin"
+                        id="carousel"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-3">
+                  <div class="row">
+                    <div class="col-12 col-md-3 text-center">
+                      <h5>Uyo</h5>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 col-md-3">
+                      <img
+                        src="img/uyo.jpg"
+                        class="mx-auto d-block"
+                        alt="Uyo"
+                        id="carousel"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-3">
+                  <div class="row">
+                    <div class="col-12 col-md-3 text-center">
+                      <h5>Abuja</h5>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 col-md-3">
+                      <img
+                        src="img/abuja.jpg"
+                        class="mx-auto d-block"
+                        alt="Abuja"
+                        id="carousel"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-12 col-md-3">
+                  <div class="row">
+                    <div class="col-12 col-md-3 text-center">
+                      <h5>Lagos</h5>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 col-md-3">
+                      <img
+                        src="img/lagos.jpg"
+                        class="mx-auto d-block"
+                        alt="Lagos"
+                        id="carousel"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-3">
+                  <div class="row">
+                    <div class="col-12 col-md-3 text-center">
+                      <h5>Benin</h5>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 col-md-3">
+                      <img
+                        src="img/benin.jpg"
+                        class="mx-auto d-block"
+                        alt="Benin"
+                        id="carousel"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-3">
+                  <div class="row">
+                    <div class="col-12 col-md-3 text-center">
+                      <h5>Uyo</h5>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 col-md-3">
+                      <img
+                        src="img/uyo.jpg"
+                        class="mx-auto d-block"
+                        alt="Uyo"
+                        id="carousel"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-3">
+                  <div class="row">
+                    <div class="col-12 col-md-3 text-center">
+                      <h5>Abuja</h5>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 col-md-3">
+                      <img
+                        src="img/abuja.jpg"
+                        class="mx-auto d-block"
+                        alt="Abuja"
+                        id="carousel"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon bg-dark"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon bg-dark"></span>
+          </a>
+        </div>
+      </div>
+
+      <div class="container-fluid mt-4 text-light" id="cf-three">
+        <div class="row ml-4">
+          <div class="col-12 col-md-2 mt-4">
+            <div class="row mr-4">
+              <div class="col-4">
+                <img src="img/logo_invert.png" id="img-5" />
+              </div>
+            </div>
+            <div class="mt-3 mr-4">
+              Nigeria's leading road transportation company. Pioneering
+              technologically based road transportation. Relax in our
+              comfortable feel and enjoy the bliss of our first class
+              transportation only offered by GIGM.com
+            </div>
+            <img src="img/FB.jpg" class="offset-1 mt-3" id="img-3" />
+            <img src="img/google.png" class="offset-2 mt-3 mb-2" id="img-4" />
+          </div>
+          <div class="col-12 col-md-1"></div>
+          <div class="row">
+            <div class="col-12 col-md-2 mt-2">
+              <h6>SERVICES</h6>
+              Travels
+              <div>Tours</div>
+              Priority Services
+            </div>
+          </div>
+          <div class="col-12 col-md-1 mr-5 mt-2">
+            <h6>COMPANY</h6>
+            About Us
+            <div>Awards</div>
+            Terminals FAQs
+            <div>How to book a bus</div>
+          </div>
+          <div class="col-12 col-md-2 mt-2">
+            <h6>EXPERIENCE</h6>
+            Learning Academy
+            <div>Safety</div>
+            Customer care
+            <div>Careers</div>
+            Contact Us
+          </div>
+          <div class="col-12 col-md-1 mt-2">
+            <h6>TERMS</h6>
+            Privacy policy
+            <div>DFAC policy</div>
+          </div>
+          <div class="col-12 col-md-2 ml-3 mt-2">
+            <h6>Have Questions?</h6>
+            <div>09087821924</div>
+            <div>contact@gigm.com</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
