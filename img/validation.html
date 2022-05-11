@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="initname" placeholder="Input Username">
+    <input type="password" id="initpassword"  placeholder="Input Password">
+    <input type="text" id="name"  placeholder="Confirm Username">
+    <input type="password" id="password"  placeholder="Confirm Password">
+    <button type="submit" onclick="Validation()">Validate</button>
+    <p id="Valid"></p>
+    <script>
+        function Validation(){
+        Initname=document.getElementById("initname").value
+        Initpassword=document.getElementById("initpassword").value
+        Name=document.getElementById("name").value
+        Password=document.getElementById("password").value
+
+        if (Initname == Name || Initpassword == Password) {
+            document.getElementById("Valid").innerHTML="Valid Username and Password"
+        }
+        if (Initname != Name || Initpassword != Password) {
+            document.getElementById("Valid").innerHTML="Invalid Username or Password"
+        }
+         }
+    </script>
+    <img src="https://www.bing.com/th/id/OIP.5tgjYvUMJsGw5hhrmeGOPAHaHa?pid=ImgDet&rs=1" alt="">
+</body>
+
+</html>
